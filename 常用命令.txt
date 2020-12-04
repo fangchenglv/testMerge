@@ -1,0 +1,67 @@
+cocoapods
+
+ 查看源 gem source -l
+
+ 设置源 sudo gem source -a https://ruby.taobao.org
+
+ 删除源 sudo gem source -r https://rubygems.org/
+
+ 安装cocoapods suodo gem install cocoapods
+
+使用   用插件就不用输入命令了
+  搜索 pod search xxx
+  切换到项目根目录 echo “pod 'xxx'" > Podfile  //存到podfile中
+  安装 pod install  
+  升级 Pod update
+
+Xcode插件 Alcatraz
+curl -fsSL https://raw.github.com/alcatraz/Alcatraz/master/Scripts/install.sh | sh
+可能会失败，墙
+
+
+
+
+
+
+
+
+http://10.28.219.84
+
+
+安装第三方软件 打开
+sudo spctl --master-disable 
+
+关闭
+sudo spctl --master-enable
+
+开启本地服务
+sudo apachectl start
+
+关闭本地服务
+sudo apachectl stop
+
+
+MySQL
+
+root 123456
+
+打开MySQL 
+/usr/local/MySQL/bin/mysql -u root -p
+
+查看端口号
+show global variables like 'port'; 
+
+
+Openfire
+
+lfc.bupt.cn  9090 9091
+
+
+
+启动Apache命令
+
+sudo apachectl -k restart
+
+sudo apachectl -k start
+
+sudo apachectl -k stop
